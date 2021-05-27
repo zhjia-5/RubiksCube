@@ -10,8 +10,8 @@ body {
     perspective: 1000px;
 }
 .wrapper {
-    width: 1190px;
-    margin: 100px auto;
+    width: 800px;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -20,9 +20,9 @@ body {
     transition: all 0.3s linear;
 }
 .box {
-    width: 150px;
-    height: 150px;   
-    margin: 15px 0;
+    width: 100px;
+    height: 100px;   
+    margin: 7px;
     position: relative;
     transform-style: preserve-3d;
     transition: all 0.5s;
@@ -46,20 +46,22 @@ body {
     background: #f44336 url('./images/1.png') no-repeat center;
 }
 .box div:nth-child(1) {
-    transform: translateZ(75px);
+    transform: translateZ(50px);
 }
 .box div:nth-child(2) {
-    transform: translateZ(-75px);
+    transform: translateZ(-50px);
 }
 .box div:nth-child(3) {
-    transform: rotateY(90deg) translateZ(75px);
+    transform: rotateY(90deg) translateZ(50px);
 }
 .box div:nth-child(4) {
-    transform: rotateY(-90deg) translateZ(75px);
+    transform: rotateY(-90deg) translateZ(50px);
 }
 .box div:nth-child(5) {
-    transform: rotateX(90deg) translateZ(75px);
+    transform: rotateX(90deg) translateZ(50px);
 }
 .box div:nth-child(6) {
-    transform: rotateX(-90deg) translateZ(75px);
+    transform: rotateX(-90deg) translateZ(50px);
 }
+
+
